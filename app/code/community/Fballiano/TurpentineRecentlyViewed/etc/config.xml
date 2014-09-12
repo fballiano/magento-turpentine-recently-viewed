@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Fballiano_TurpentineRecentlyViewed>
+            <version>0.1.0</version>
+        </Fballiano_TurpentineRecentlyViewed>
+    </modules>
+    <global>
+        <blocks>
+            <fballiano_turpentinerecentlyviewed>
+                <class>Fballiano_TurpentineRecentlyViewed_Block</class>
+            </fballiano_turpentinerecentlyviewed>
+            <turpentine>
+                <rewrite>
+                    <core_messages>Fballiano_TurpentineRecentlyViewed_Block_Messages</core_messages>
+                </rewrite>
+            </turpentine>
+        </blocks>
+        <helpers>
+            <fballiano_turpentinerecentlyviewed>
+                <class>Fballiano_TurpentineRecentlyViewed_Helper</class>
+            </fballiano_turpentinerecentlyviewed>
+        </helpers>
+        <models>
+            <fballiano_turpentinerecentlyviewed>
+                <class>Fballiano_TurpentineRecentlyViewed_Model</class>
+            </fballiano_turpentinerecentlyviewed>
+            <turpentine>
+                <rewrite>
+                    <observer_esi>Fballiano_TurpentineRecentlyViewed_Model_Esi</observer_esi>
+                </rewrite>
+            </turpentine>
+        </models>
+    </global>
+</config>

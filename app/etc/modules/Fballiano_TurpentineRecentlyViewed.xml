@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Fballiano_TurpentineRecentlyViewed>
+            <active>true</active>
+            <codePool>community</codePool>
+            <depends>
+                <Mage_Catalog/>
+                <Mage_Customer/>
+                <Mage_Log/>
+                <Mage_Reports/>
+                <Enterprise_CustomerSegment/>
+            </depends>
+        </Fballiano_TurpentineRecentlyViewed>
+    </modules>
+</config>

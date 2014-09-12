@@ -1,0 +1,25 @@
+{
+   "name":"fballiano/magento-turpentine-recently-viewed",
+   "license":"OSL-3.0",
+   "type":"magento-module",
+   "description":"Makes the "recently viewed" block available and working on Magento EE + Varnish (Turpentine).",
+   "homepage":"https://github.com/fballiano/magento-autodelete-product-images",
+   "require":{
+      "php":">=5.3.0",
+      "magento-hackathon/magento-composer-installer":"*"
+   },
+   "repositories":[
+      {
+         "type":"composer",
+         "url":"http://packages.firegento.com"
+      }
+   ],
+   "authors":[
+      {
+         "name":"Fabrizio Balliano",
+         "email":"fabrizio@fabrizioballiano.it",
+         "homepage":"http://fabrizioballiano.it",
+         "role":"Developer"
+      }
+   ]
+}

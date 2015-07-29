@@ -1,1 +1,2 @@
-app/*       app
+app/code/community/Fballiano/TurpentineRecentlyViewed app/code/community/Fballiano/TurpentineRecentlyViewed
+app/etc/modules/Fballiano_TurpentineRecentlyViewed.xml app/etc/modules/Fballiano_TurpentineRecentlyViewed.xml
